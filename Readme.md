@@ -11,7 +11,7 @@ that makes it easy interact with libpostal.
 ## Build image and start up container
 ```
 docker build -t libpostal-rest .
-docker run -d -p 8080:8080 libpostal-rest
+docker run -d -p 9090:9090 libpostal-rest
 ```
 
 ## Build image from specific libpostal git hash
@@ -32,4 +32,4 @@ File a Github issue
 ## Contributing
 Just submit a pull request :D
 
-See REST API [here](https://github.com/johnlonganecker/libpostal-rest) 
+See REST API [here](https://github.com/johnlonganecker/libpostal-rest)
